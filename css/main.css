@@ -285,25 +285,7 @@ img {
 }
 
 
-@media (min-width: 768px) {
-  .view-mobile {
-    display: none;
-  }
-
-  .view-desktop {
-    display: none;
-  }
-
-  .view-tablet {
-    display: block;
-  }
-  .container {
-    background-image: url("../assets/images/dawn.png");
-
-  }
-}
-
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     .view-mobile {
       display: block;
     }
@@ -320,6 +302,24 @@ img {
       }
 }
 
+@media (min-width: 768px) {
+  .view-mobile {
+    display: none;
+  }
+
+  .view-desktop {
+    display: none;
+  }
+
+  .view-tablet {
+    display: block;
+  }
+  .container {
+    background-image: url("../assets/images/sunny-day.jpg");
+
+  }
+}
+
 @media (min-width: 992px) {
   .view-mobile {
     display:none;
@@ -334,7 +334,7 @@ img {
 }
 
 .container {
-  background-image: url("../assets/images/sunny-day.jpg");
+  background-image: url("../assets/images/dawn.png");
   }
 }
 
