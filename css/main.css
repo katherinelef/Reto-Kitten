@@ -7,16 +7,12 @@ body {
 }
 /* Grid */
 .container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  height: 600px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-img {
-  transform: translate(30%,100%);
 }
 
 .row::after {
@@ -338,4 +334,8 @@ img {
   }
 }
 
+}
+
+img {
+  transform: translate(30%,100%);
 }
