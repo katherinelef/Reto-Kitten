@@ -5,6 +5,11 @@
 body {
   margin: 0;
 }
+
+img {
+  transform: translate(30%,100%);
+}
+
 /* Grid */
 .container {
   background-repeat: no-repeat;
@@ -14,6 +19,8 @@ body {
   max-width: 1200px;
   width: 100%;
 }
+
+
 
 .row::after {
   content: "";
@@ -334,8 +341,4 @@ body {
   }
 }
 
-}
-
-img {
-  transform: translate(30%,100%);
 }
